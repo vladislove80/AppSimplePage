@@ -1,0 +1,2 @@
+# AppSimplePage
+Android internship tasks
