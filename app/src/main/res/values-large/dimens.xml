@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- large screen -->
+    <dimen name="activity_horizontal_margin">15dp</dimen>
+    <dimen name="activity_vertical_margin">15dp</dimen>
+    <dimen name="text_size">26sp</dimen>
+    <dimen name="header_text_size">28sp</dimen>
+    <dimen name="padding_row">15dp</dimen>
+    <dimen name="status_wigth">160dp</dimen>
+    <dimen name="status_hight">50dp</dimen>
+    <dimen name="statusViewCornerRadius">60dip</dimen>
+    <dimen name="heightLineSeparator">2dp</dimen>
+</resources>

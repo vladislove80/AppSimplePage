@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/ll_in_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:focusableInTouchMode="true">
+            <RelativeLayout
+                style="@style/LayoutRaw">
+                <TextView
+                    style="@style/BasicTextStyle.Header"
+                    android:id="@+id/utility"
+                    android:text="@string/utility"/>
+                <TextView
+                    android:height="@dimen/status_hight"
+                    android:width="@dimen/status_wigth"
+                    android:id="@+id/status"
+                    android:textSize="@dimen/text_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_rounded_corner"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:textColor="@color/statusTextColor"/>
+            </RelativeLayout>
+
+            <View
+                style="@style/LineSeparator"/>
+
+            <RelativeLayout
+                style="@style/LayoutRaw">
+                <TextView
+                    style="@style/BasicTextStyle.Fild"
+                    android:id="@+id/create"
+                    android:text="@string/create"/>
+                <TextView
+                    style="@style/BasicTextStyle.Date"
+                    android:id="@+id/creation_date"/>
+            </RelativeLayout>
+
+            <View
+                style="@style/LineSeparator"/>
+
+            <RelativeLayout
+                style="@style/LayoutRaw">
+                <TextView
+                    style="@style/BasicTextStyle.Fild"
+                    android:id="@+id/registration"
+                    android:text="@string/registration"/>
+                <TextView
+                    style="@style/BasicTextStyle.Date"
+                    android:id="@+id/registration_date"/>
+            </RelativeLayout>
+
+            <View
+                style="@style/LineSeparator"/>
+
+            <RelativeLayout
+                style="@style/LayoutRaw">
+                <TextView
+                    style="@style/BasicTextStyle.Fild"
+                    android:id="@+id/solve"
+                    android:text="@string/solve_to"/>
+                <TextView
+                    style="@style/BasicTextStyle.Date"
+                    android:id="@+id/solve_date"/>
+            </RelativeLayout>
+
+            <View
+                style="@style/LineSeparator"/>
+
+            <RelativeLayout
+                style="@style/LayoutRaw">
+                <TextView
+                    style="@style/BasicTextStyle.Fild"
+                    android:id="@+id/responsible"
+                    android:text="@string/responsible"/>
+                <TextView
+                    style="@style/BasicTextStyle.Date"
+                    android:id="@+id/responsible_department"/>
+            </RelativeLayout>
+
+            <View
+                style="@style/LineSeparator"/>
+
+            <TextView
+                style="@style/BasicTextStyle.Description"
+                android:id="@+id/description"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rv"
+                android:scrollbars="horizontal"/>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AppSimplePage</string>
+    <string name="utility">Utility</string>
+    <string name="status">In work</string>
+    <string name="create">Created</string>
+    <string name="create_date">25 feb 2016</string>
+    <string name="registration_date">26 feb 2016</string>
+    <string name="solve_date">29 feb 2016</string>
+    <string name="registration">Registered</string>
+    <string name="solve_to">Solve to</string>
+    <string name="responsible">Responsible</string>
+    <string name="responsibleDepartment">Dnepr CEC</string>
+    <string name="description">Open the hatch (near the billboard), turning the area on 18 and 19 trams at Prospect Mira with the Donetsk highway</string>
+</resources>

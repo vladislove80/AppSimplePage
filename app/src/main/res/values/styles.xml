@@ -1,0 +1,48 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="LayoutRaw">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding_row</item>
+    </style>
+    <style name="LineSeparator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/heightLineSeparator</item>
+        <item name="android:background">@color/colorSeparator</item>
+    </style>
+    <style name="BasicTextStyle">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="BasicTextStyle.Header">
+        <item name="android:textSize">@dimen/header_text_size</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@color/colorDataText</item>
+    </style>
+    <style name="BasicTextStyle.Fild">
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="BasicTextStyle.Date">
+        <item name="android:textColor">@color/colorDataText</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="BasicTextStyle.Description">
+        <item name="android:textColor">@color/colorDataText</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">@dimen/padding_row</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+</resources>
