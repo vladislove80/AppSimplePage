@@ -5,6 +5,6 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorDataText">#000000</color>
     <color name="statusTextColor">#ffffff</color>
-    <color name="statusBackground">#e100ff</color>
+    <color name="statusBackground">#FFA500</color>
     <color name="colorSeparator">#c0c0c0</color>
 </resources>

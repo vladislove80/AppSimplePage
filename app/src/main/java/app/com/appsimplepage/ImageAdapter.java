@@ -62,7 +62,7 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ViewHolder>{
         Picasso.with(context)
                 .load(mImagesURLs[position])
                 .placeholder(R.drawable.loading)
-                .resize(170, 170)
+                .resize(R.dimen.imageWidth, R.dimen.imageHight)
                 .error(R.drawable.not_found)
                 .into(holder.imageView);
     }

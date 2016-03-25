@@ -8,8 +8,8 @@
     android:layout_marginRight="2dp">
 
     <ImageView
-        android:layout_width="170dp"
-        android:layout_height="170dp"
+        android:layout_width="@dimen/imageWidth"
+        android:layout_height="@dimen/imageHight"
         android:id="@+id/img_android"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"

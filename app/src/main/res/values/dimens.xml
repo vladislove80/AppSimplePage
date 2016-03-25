@@ -10,4 +10,6 @@
     <dimen name="status_hight">25dp</dimen>
     <dimen name="statusViewCornerRadius">60dip</dimen>
     <dimen name="heightLineSeparator">2dp</dimen>
+    <dimen name= "imageHight">180dp</dimen>
+    <dimen name= "imageWidth">180dp</dimen>
 </resources>
