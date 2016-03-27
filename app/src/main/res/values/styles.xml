@@ -36,6 +36,7 @@
     <style name="BasicTextStyle.Date">
         <item name="android:textColor">@color/colorDataText</item>
         <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textStyle">bold|italic</item>
     </style>
     <style name="BasicTextStyle.Description">
         <item name="android:textColor">@color/colorDataText</item>

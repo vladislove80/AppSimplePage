@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Copyright (C) 2015 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         solveTextView.setOnClickListener(this);
 
         TextView solveDateTextView = (TextView) findViewById(R.id.solve_date);
-        solveDateTextView.setText("29 лютого 2016");
+        solveDateTextView.setText(R.string.solve_date);
         solveDateTextView.setOnClickListener(this);
 
         TextView responsibleTextView = (TextView) findViewById(R.id.responsible);

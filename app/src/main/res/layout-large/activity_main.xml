@@ -27,9 +27,9 @@
                     android:id="@+id/utility"
                     android:text="@string/utility"/>
                 <TextView
+                    android:id="@+id/status"
                     android:height="@dimen/status_hight"
                     android:width="@dimen/status_wigth"
-                    android:id="@+id/status"
                     android:textSize="@dimen/text_size"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
