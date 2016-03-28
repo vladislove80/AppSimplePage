@@ -3,7 +3,7 @@
  
  Create screen with controls
  
- [alt tag](http://i.imgur.com/O4eJV1A.png)
+ ![alt tag](http://i.imgur.com/O4eJV1A.png)
  
  Requirments: 
  <ul>
@@ -29,4 +29,4 @@
  <li>the distance between the dividers is better to make the same</li>
  <li>dividers hight is better to make the same</li>
  </ol>
- [alt tag](http://i.imgur.com/azz1hDK.png)
+ ![alt tag](http://i.imgur.com/azz1hDK.png)
