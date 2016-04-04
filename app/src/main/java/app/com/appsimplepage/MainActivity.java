@@ -33,7 +33,7 @@ import android.widget.Toast;
  * @version 2016.001
  * @since   2016-03-24
  */
-
+//[Comment] Wrong colors, wrong fonts
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     /**
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getSupportActionBar().setDisplayOptions(android.support.v7.app.ActionBar.DISPLAY_HOME_AS_UP);
+        getSupportActionBar().setDisplayOptions(android.support.v7.app.ActionBar.DISPLAY_HOME_AS_UP); //[Comment] NPE possible
         getSupportActionBar().setDisplayShowTitleEnabled(true);
 
         TextView utilityTextView = (TextView) findViewById(R.id.utility);
@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 controlName = "Назва вдповідального відомства";
                 break;
             case R.id.description:
-                controlName = "Опис";
+                controlName = "Опис"; //[Comment] Hardcode, wrong information
                 break;
         }
         if(!controlName.equals("")) {
@@ -168,7 +168,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onBackPressed() {
-        // TODO Auto-generated method stub
+        // TODO Auto-generated method stub //[Comment] Bad. Don't leave such comments
         super.onBackPressed();
         Toast s = Toast.makeText(getBaseContext(), "Exit", Toast.LENGTH_LONG);
         s.show();

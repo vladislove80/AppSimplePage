@@ -37,7 +37,7 @@ import com.squareup.picasso.Picasso;
 public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ViewHolder>{
 
     private String[] mImagesURLs;
-    private Context context;
+    private Context context; //[Comment] Wrong name
 
     /**
      * ImageAdapter constructor
